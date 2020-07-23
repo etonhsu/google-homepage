@@ -1,0 +1,67 @@
+h1 {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+#logo {
+    padding-top: 109px;
+    padding-bottom: 25px;
+    height: 92px;
+    width: 272px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#search-area {
+    height: 44px;
+    width: 575px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    
+}
+
+input#search-bar {
+    height: 39px;
+    width: 487px;
+    border: none;
+    font: 16px arial, sans-serif;
+}
+
+#magnifying {
+    height: 20px;
+    width: 20px;
+    padding-top: 12px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 10px;
+    opacity: 70%;
+
+    cursor: pointer;
+}
+
+#microphone {
+    height: 20px;
+    width: 20px;
+    padding-top: 12px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 5px;
+
+    cursor: pointer;
+}
+
+input:focus, textarea {
+    outline: none !important;
+}
+
