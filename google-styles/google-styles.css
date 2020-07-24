@@ -1,9 +1,13 @@
 header {
-    height: 50px;
+    height: 40px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.center {
+    width: 72%;
 }
 
 .left a {
@@ -12,8 +16,9 @@ header {
     text-decoration: none;
     color: #000;
     opacity: 0.75;
-    padding-left: 15px;
     position: relative;
+    padding-left: 12px;
+    
 }
 
 .right a {
@@ -21,9 +26,8 @@ header {
     font-size: 13px;
     text-decoration: none;
     color: rgba(0,0,0,0.87);
-    position: relative; 
-    padding-right: 15px;
-    left: 450px;
+    position: relative;
+    padding-right: 12px;
 }
 
 .header-links a {
